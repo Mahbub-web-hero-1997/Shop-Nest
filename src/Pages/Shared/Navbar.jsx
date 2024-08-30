@@ -5,7 +5,7 @@ const Navbar = () => {
   const navItems = (
     <>
       <li className="font-semibold">
-        <Link to="/home">Home</Link>
+        <Link to="/">Home</Link>
       </li>
       <li className="font-semibold">
         <Link to="/products">Products</Link>
@@ -20,7 +20,7 @@ const Navbar = () => {
   );
   return (
     <>
-      <div className="navbar bg-base-100 Navbar_Container">
+      <div className="navbar bg-base-100 Navbar_Container sticky top-0 z-50">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
